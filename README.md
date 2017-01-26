@@ -5,4 +5,4 @@ Ohjelma, joka generoi halutun määrän genrejä ja juonikuvioita jos ei itse ke
 
 A program that generates any number of genres and plot devices for writers who don't know what to write about.
 
-[Aiheen kuvaus](dokumentaatio/aihemaarittely.md)
+[Aiheen kuvaus](https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/aihemaarittely.md)
