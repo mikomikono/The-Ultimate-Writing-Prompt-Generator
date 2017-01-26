@@ -1,4 +1,4 @@
-package writingprompts.promptgenerator;
+package writingprompts.promptgenerator.logic;
 
 import java.util.Random;
 

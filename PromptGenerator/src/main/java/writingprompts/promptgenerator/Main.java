@@ -1,5 +1,7 @@
 package writingprompts.promptgenerator;
 
+import writingprompts.promptgenerator.logic.Generator;
+
 public class Main {
 
     public static void main(String[] args) {

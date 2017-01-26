@@ -1,4 +1,4 @@
-package writingprompts.promptgenerator;
+package writingprompts.promptgenerator.logic;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,5 +46,13 @@ public class Generator {
             System.out.println(p);
         }
         return this.plotDevices;
+    }
+    
+    public void resetGenres() {
+        this.genres = new ArrayList<>();
+    }
+    
+    public void resetPlotDevices() {
+        this.plotDevices = new ArrayList<>();
     }
 }
