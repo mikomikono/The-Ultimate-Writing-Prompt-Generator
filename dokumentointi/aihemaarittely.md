@@ -9,3 +9,5 @@ Applikaatio, jonka avulla voi luoda itselleen aihe-ehdotuksen, jos ei keksi mit�
 - juonikuvioiden määrän valinta
 - uuden ehdotuksen luonti uusilla valinnoilla
 - uuden ehdotuksen luonti samoilla valinnoilla
+
+![luokkakaavio1](https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/20170127_115237.jpg)
