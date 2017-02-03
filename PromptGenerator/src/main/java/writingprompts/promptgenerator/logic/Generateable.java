@@ -1,5 +1,8 @@
 package writingprompts.promptgenerator.logic;
 
+import java.util.List;
+
 public interface Generateable {
-    Generateable generate();
+    String generate();
+    List<String> all();
 }

@@ -4,55 +4,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Generator {
-    private List<Genre> genres;
+    private Generateable generatee;
+    private List<String> generated;
     private List<PlotDevice> plotDevices;
+
     
-    public Generator() {
-        this.genres = new ArrayList<>();
+    public Generator(Generateable generatee) {
+        this.generatee = generatee;
+        this.generated = new ArrayList<>();
         this.plotDevices = new ArrayList<>();
     }
     
-    public void generateGenre() {
-        Genre g = Genre.generate();
-        while (this.genres.contains(g)) {
-            if (Genre.values().length <= this.genres.size()) {
-                break;
+    public void generate() {
+        if (this.generated.size() < this.generatee.all().size()) {
+            String g = this.generatee.generate();
+            while (this.generated.contains(g)) {
+                g = this.generatee.generate();
             }
-            g = Genre.generate();
+            this.generated.add(g);
         }
-        this.genres.add(g);
     }
     
-    public void generatePlotDevice() {
-        PlotDevice p = PlotDevice.generate();
-        while (this.plotDevices.contains(p)) {
-            if (PlotDevice.values().length <= this.plotDevices.size()) {
-                break;
-            }
-            p = PlotDevice.generate();
-        }
-        this.plotDevices.add(p);
+    public List<String> returnGenerated() {
+        return this.generated;
     }
     
-    public List<Genre> returnGenres() {
-        for (Genre g : genres) {
-            System.out.println(g);
-        }
-        return this.genres;
-    }
-    
-    public List<PlotDevice> returnPlotDevices() {
-        for (PlotDevice p : plotDevices) {
-            System.out.println(p);
-        }
-        return this.plotDevices;
-    }
-    
-    public void resetGenres() {
-        this.genres = new ArrayList<>();
-    }
-    
-    public void resetPlotDevices() {
-        this.plotDevices = new ArrayList<>();
+    public void resetGenerated() {
+        this.generated = new ArrayList<>();
     }
 }
