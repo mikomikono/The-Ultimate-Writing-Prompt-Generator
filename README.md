@@ -1,10 +1,12 @@
 # The-Ultimate-Writing-Prompt-Generator
-Kirjoitusaihe generattori/A writing prompt generator
+Kirjoitusohjelma ja kirjoitusaihe generattori/A writing software and prompt generator
 
-Ohjelma, joka generoi halutun määrän genrejä ja juonikuvioita jos ei itse keksi mistä kirjoittaa.
+Kirjoitusohjelma, jolla voi halutessaan generoida genrejä, juonikuvioita, asetelmia yms., jos ei itse keksi mistä kirjoittaa.
 
-A program that generates any number of genres and plot devices for writers who don't know what to write about.
+A writing program that can also be used to generate genres, plot devices, settings, etc., made especially for writers who don't know what to write about.
 
 ## Dokumentaatio
 [Aiheen kuvaus](https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/aihemaarittely.md)
 [Tuntikirjanpito](https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/tuntikirjanpito.md)
+[Pit testaus](https://htmlpreview.github.io/?https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/PIT/201702031405/index.html)
+[Checkstyle](https://htmlpreview.github.io/?https://github.com/mikomikono/The-Ultimate-Writing-Prompt-Generator/blob/master/dokumentointi/site/checkstyle.html)
